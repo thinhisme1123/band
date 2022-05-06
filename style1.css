@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-family: Courier ;
+    font-size: 100px;
+}
+
+nav>ul{
+    list-style: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E13BC8 ;
+}
+nav>ul{
+    display: flex;
+}
+.menu {
+    margin-left: 30px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    display: block;
+}
+a:hover {
+    background-color: black;
+    color:#E13BC8 ;
+}
+li>.con{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.drop1:hover .menudrop1 {
+    display: block;
+}
+.menudrop1 {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 200px;
+}
+.menudrop1>a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: white;
+}
+.menudrop1>a:hover {
+    background-color: #E67FF4 ;
+    color: black; 
+}
+.listmem:hover .dropmem {
+    display: block;
+}
+.dropmem {
+    display:none;
+    background: black;
+    position: absolute;
+    min-width: 200px;
+}
+.dropmem>a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: white;
+}
+.dropmem>a:hover {
+    background-color: #E67FF4 ;
+    color : black;
+}
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+img {
+    margin-left: 33%;
+}
